@@ -1,0 +1,141 @@
+body {
+background-color:grey ;
+color: moccasin;
+font-family: sans-serif;
+text-align: center;
+}
+/*the first styling code we see is for the body, this part is important as it
+the styling is for the whole website page. so it is important to make sure that
+the website colour, font, and size are all consistent. */
+
+nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: lightgray;
+}
+
+
+
+li a {
+  display: block;
+  color: midnightblue;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+/*this styling sequence is used to style the navigation bar. in the section 'nav'
+i used all the options to make sure that the settings and gaps are set correctly
+is not bunched together. i have also changed the background colour of the region of the navigation
+bar to make it prominent that the navigation bar is there.
+in the first 'li a' section, i used that in order to then mark out the text being used as
+links to the other pages. in this case the 'home and 'cast' words used in the nav bar
+is coloured out in a midnight blue colour.
+lastly, the final 'li a' section was used to add a button type effect to the bar.
+for example, when the mouse cursor is hovered over the page options, it will highlight
+in the colour black. this is used so that it makes it easier for the user to know which
+place they would like to click.*/
+
+.home {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 30px;
+}
+
+/*this home section was used to style the synopsis part of the home page. the codes used
+for this section was just basic font resizing and colour changes.
+padding is used to determine the size and gaos around teh content. the bigger the pixels used
+for the margin and paddings, the more spaced out the content will be and there will be nothing else
+ entering the paddin/margin zone of the content marked out. this is used to mark a layout
+ and to also make the overall aesthetic of the website much neater. */
+
+section{
+float: left;
+}
+/* in the section segment, i used a float left styling element to make sure that the content
+within the section bracket is moved to the left of the text and is not scrambled.*/
+
+.video1 {
+  display:block;
+  justify-content: space-between;
+border: 10px;
+max-width: 1000px;
+margin: auto;
+}
+
+/*the video1 label was styled for the trailer on the home page, within this segment
+i used the same margin and border to make sure that no text or other content on the page,
+was merging and squashing the video. i also used the max width option to make sure
+that the size of the media player was consistent and when the video was interacted
+with, it would not expand and go refer back to its original size when finished. */
+
+
+.JC {
+
+font-size: 20px;
+color: white;
+font-family: sans-serif;
+text-align: center;
+padding: 10px 20px;
+margin: 30px;
+}
+
+.CT {
+font-size: 20px;
+color: white;
+font-family: sans-serif;
+text-align: center;
+padding: 10px 20px;
+margin: 30px;
+}
+
+/*the two div classes labelled JC and CT are used to label the section of the actors.
+in this case the text was being styled and neatly layed out. yet again, margin and
+padding was used on this occasion to make sure that the picture and the audio
+media player was not invading the margining and spacing of the text.*/
+
+.JCaudio {
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+}
+
+
+.CTaudio {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+/* these two div classes are used for the actors' indivudual audio media player.
+here, we can see that the display and justify content and align styling codes
+were used in order to centralise the media players and they were also used to make sure
+that they were not positioned in a random place on the page. */
+
+footer{
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+/* the footer section was basically styled and to make sure that the footer at the
+bottom of the screen is sectioned off but at the same time to ensure that the footer
+is prominent and seen by the user. */
+
+section::after {
+content: "";
+display: block;
+  clear:both;
+}
+
+/* lastly, the section after is used as a layout styling method. this was used on my website
+to make sure that the cast page was not all crammed into one area but instead it was spaced
+out onto the page.*/
